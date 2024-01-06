@@ -10,10 +10,6 @@ eureka:
   instance:
     hostname: localhost
 
-spring:
-  application:
-    name: mail-sender
-
 servlet:
   multipart:
     max-file-size: 10MB
