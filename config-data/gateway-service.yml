@@ -18,6 +18,6 @@ spring:
           enabled: true
       routes:
         - id: mail-sender
-          uri: lb://mailsender
+          uri: lb://mail-sender
           predicates:
             - Path=/mail-sender/**
